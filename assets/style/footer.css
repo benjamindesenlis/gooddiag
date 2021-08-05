@@ -1,0 +1,133 @@
+.footer-content {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  margin-top: 350px;
+  position: relative;
+}
+
+.footer-content h4 {
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.footer-content ul {
+  display: flex;
+  margin: 0 auto;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: space-around;
+  gap: 80px;
+}
+
+.footer-content ul li {
+  width: 50%;
+  /* margin: 0 auto; */
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer-content p {
+  font-size: 0.8rem;
+}
+.footer-content a {
+  color: white;
+  text-decoration: none;
+}
+
+.link ul {
+  display: block;
+  line-height: 30px;
+  font-size: 0.9rem;
+}
+
+.reseau img {
+  width: 50px;
+  margin-left: 20px;
+}
+
+/*  */
+.footer {
+  position: relative;
+}
+.contact {
+  width: 35%;
+  background: #d1dee7;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: -350%;
+  border-radius: 6px;
+}
+
+/*  */
+
+.contacteznous {
+  position: relative;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.contacteznous h4 {
+  font-family: "Merriweather", serif;
+  font-size: 2.4rem;
+  color: #314261;
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+
+.formulaire {
+  margin: 0 auto;
+  line-height: 30px;
+  width: 60%;
+}
+
+.contacteznous form input {
+  background: none;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 30px;
+}
+
+.contacteznous input[type="submit"] {
+  background: #f0a12a;
+  border-radius: 6px;
+  padding: 15px 35px;
+  border: none;
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.svg-circle2 {
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 8000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 8000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 8000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+
+  animation-name: spin;
+  animation-duration: 8000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.svg-circle2 svg {
+  color: black;
+}
+
+.votremessage {
+  height: 100px;
+}
